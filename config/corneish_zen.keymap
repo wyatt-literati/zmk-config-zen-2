@@ -30,13 +30,13 @@
                 lower_layer {
                         label = "NUMBER";
 // -----------------------------------------------------------------------------------------
-// |  TAB | BT1 | BT2 | BT3 | BT4 | BT5 |   |  +  |  -  |     |  [  |  ]  | BKSP |
+// |  TAB | BT1 | BT2 | BT3 | BT4 | BT5 |   |  =  |  -  |  ;  |  [  |  ]  | BKSP |
 // | BTCLR|  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  |  '   |
 // | SHFT |     |     |     |  `  |     |   |  /  |  L  |  D  |  U  |  R  |  \   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp TAB    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp PLUS   &kp MINUS &trans   &kp LBKT &kp RBKT  &kp BSPC
-   &bt BT_CLR &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6     &kp N7    &kp N8   &kp N9   &kp N0    &trans
+   &kp TAB    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp EQUAL  &kp MINUS &kp SEMI &kp LBKT &kp RBKT  &kp BSPC
+   &bt BT_CLR &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6     &kp N7    &kp N8   &kp N9   &kp N0    &kp SQT
    &kp LSHFT  &trans       &trans       &trans       &kp GRAVE    &trans         &kp FSLH   &kp LEFT  &kp DOWN &kp UP   &kp RIGHT &kp BSLH
                           	        &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
                         >;
